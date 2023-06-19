@@ -1,0 +1,95 @@
+body {
+    transition: background-color 0.2s;
+  }
+  
+  h1 {
+    transition: color 7s;
+    margin-bottom: 50px;
+  }
+  #contai-Princ{
+    margin-top: 50px;
+  }
+  .checkbox{
+    margin-right: 5px;
+  }
+  .dark-theme {
+    background-color: #333;
+    color: white;
+  }
+  .div-one{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .button{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+  }
+  .button {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: border-color 5s ease-in-out;
+  }
+  
+  @keyframes changeBorderColor {
+    0% {
+      border-color: rgb(33, 169, 171);
+    }
+    50% {
+      border-color: rgb(0, 60, 255);
+    }
+    100% {
+      border-color: rgb(68, 0, 128);
+    }
+  }
+  
+  .button:hover {
+    animation: changeBorderColor 5s infinite;
+  }
+  .btn-Adicionar{
+    margin-left: 10px;
+  }
+  .btn-toggleTheme{
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    padding: 10px;
+    border-radius: 100px;
+    font-weight: bold;
+    text-align: right;
+  }
+  .dark-theme h1 {
+    color: #fff;
+  }
+  
+  .dark-theme .form-control {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .dark-theme .btn-success {
+    background-color: #777;
+  }
+  
+  .dark-theme .btn-primary {
+    background-color: #555;
+  }
+  
+  .dark-theme #taskList {
+    color: #fff;
+  }
+  
+  .dark-theme .list-group-item {
+    border-color: #555;
+    background-color: #555;
+    color: #fff;
+  }
+  
+
+  
+  
